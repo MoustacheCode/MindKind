@@ -55,6 +55,16 @@
     opacity: 65%;
 }
 
+.hero-about {
+    background: url("images/about-image.jpg") no-repeat center center/cover;
+    position: relative;
+    height: 600px;
+    padding: 20px;
+    margin: 20px;
+    margin-right: 20px;
+    opacity: 65%;
+}
+
 .hero-text {
     position: absolute;
     top: 90%; /* Aligns the text to the bottom of the Hero Image */
