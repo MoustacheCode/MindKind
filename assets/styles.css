@@ -10,6 +10,16 @@
 
 .navbar {
     background-color: #e8e9ec;
+    /* Add padding to match hero image margins */
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar .container {
+    /* Remove Bootstrap's automatic centering to align with hero image */
+    max-width: none;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .navbar-brand {
@@ -93,9 +103,34 @@ footer h5 {
     font-family: "Major Mono Display", monospace;
     text-align: center;
     align-items: center;
+    padding-top: 8px;
 }
 
 footer .social {
     text-align: center;
     margin-top: 10px;
+}
+
+/* Base styling for social icons */
+.social a {
+    display: inline-block;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.social a i {
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+/* Enhanced hover effects */
+.social a:hover {
+    transform: translateY(-3px);
+}
+
+/** Important tag used due to inline styles in HTML required for Social Logo color change **/
+.social a:hover i {
+    color: var(--sub-heading-color) !important;
+    transform: scale(1.2);
 }
