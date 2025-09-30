@@ -184,6 +184,38 @@
     color: white;
 }
 
+.row {
+    margin: 20px;
+    padding: 20px;
+}
+
+.card-body {
+    background: url(assets/images/sadness.jpg);
+}
+
+.card-title {
+    color: var(--heading-color);
+    font-family: "Major Mono Display", monospace;
+    font-size: 1.5rem;
+}
+
+.card-text {
+    color: var(--sub-heading-color);
+    font-family: "Permanent Marker", cursive;
+}
+
+.card-low-mood li {
+    color: var(--heading-color);
+    font-family: "Caveat Brush", cursive;
+    font-size: 1.2rem;
+}
+
+.card-text li {
+    color: var(--background-color);
+    font-family: "Caveat Brush", cursive;
+    font-size: 1.2rem;
+}
+
 /* Footer Styles */
 
 footer {
