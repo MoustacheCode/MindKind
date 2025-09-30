@@ -150,6 +150,20 @@
     padding: 20px;
 }
 
+.btn-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.btn-center button,
+.btn-center #enter {
+    width: auto;
+    display: inline-block;
+}
+
 #enter {
     background-color: white;
     color: var(--heading-color);
@@ -166,8 +180,8 @@
 }
 
 #enter:hover {
-    background-color: var(--text-color);
-    color: var(--background-color);
+    background-color: var(--heading-color);
+    color: white;
 }
 
 /* Footer Styles */
