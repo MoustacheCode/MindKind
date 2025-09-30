@@ -184,19 +184,48 @@
     color: white;
 }
 
+/* Universal card button styling */
+.card-btn,
+.card .btn {
+    background-color: white;
+    color: var(--heading-color);
+    font-family: "Permanent Marker", cursive;
+    font-size: 1rem;
+    border: 2px solid var(--heading-color);
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-decoration: none;
+    display: block;
+    width: fit-content;
+    margin: 15px auto 0 auto; /* Center the button with top margin */
+}
+
+.card-btn:hover,
+.card .btn:hover {
+    background-color: var(--heading-color);
+    color: white;
+    text-decoration: none;
+}
+
 .row {
     margin: 20px;
     padding: 20px;
 }
 
 .card-body {
-    background: url(assets/images/sadness.jpg);
+    background-color: var(--background-color);
+    border-radius: 1%;
+    border: 2px solid var(--heading-color);
+    padding: 5px;
 }
 
 .card-title {
     color: var(--heading-color);
     font-family: "Major Mono Display", monospace;
     font-size: 1.5rem;
+    font-weight: bolder;
 }
 
 .card-text {
@@ -204,16 +233,9 @@
     font-family: "Permanent Marker", cursive;
 }
 
-.card-low-mood li {
+.card-low-mood {
     color: var(--heading-color);
-    font-family: "Caveat Brush", cursive;
-    font-size: 1.2rem;
-}
-
-.card-text li {
-    color: var(--background-color);
-    font-family: "Caveat Brush", cursive;
-    font-size: 1.2rem;
+    font-family: "Permanent Marker", cursive;
 }
 
 /* Footer Styles */
