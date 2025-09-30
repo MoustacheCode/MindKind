@@ -1,5 +1,5 @@
 /** Font Import for Major Mono Display **/
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Major+Mono+Display&family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Major+Mono+Display&family=Permanent+Marker&family=Tangerine:wght@400;700&display=swap");
 
 :root {
     --heading-color: #4682b4;
@@ -91,14 +91,53 @@
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Added text shadow for better readability */
 }
 
-.carousel-section {
+/* Carousel Section Styling */
+.quote-container {
     position: relative;
-    height: 600px;
-    padding: 20px;
-    padding-top: 0px;
+    width: auto;
     margin: 20px;
-    margin-right: 20px;
-    opacity: 65%;
+    padding: 20px;
+    margin-right: 20px; /* matches hero image's right margin */
+}
+.c-w {
+    color: var(--heading-color);
+    font-family: "Permanent Marker", cursive;
+}
+
+.c-b {
+    color: var(--background-color);
+}
+
+.bg-charles {
+    background-color: var(--background-color);
+    color: var(--heading-color);
+    font-family: "Permanent Marker", cursive;
+}
+
+.bg-mitchell {
+    background-color: var(--heading-color);
+    color: var(--background-color);
+    font-family: "Permanent Marker", cursive;
+}
+
+.quote-sign {
+    color: var(--sub-heading-color);
+    font-family: "Tangerine", cursive;
+    font-size: 2.5rem;
+}
+
+.quote-sign-2 {
+    color: white;
+    font-family: "Tangerine", cursive;
+    font-size: 2.5rem;
+}
+
+.home-body {
+    background-color: var(--background-color);
+    font-family: "Major Mono Display", monospace;
+    color: var(--sub-heading-color);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Added text shadow for better readability */
+    padding: 20px;
 }
 
 /* Footer Styles */
