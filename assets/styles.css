@@ -268,27 +268,15 @@
         center/cover;
 }
 
-/* Sticky Footer Setup */
-html,
-body {
-    height: 100%;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-}
-
-main {
-    flex: 1; /* This makes main content take up available space */
-}
-
 /* Footer Styles */
 
 footer {
     background-color: var(--background-color);
-    margin-top: auto; /* Changed from 1000px to auto for sticky behavior */
-    padding: 5px 0; /* Minimal padding for very short footer */
+    height:120px
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 footer h5 {
@@ -296,15 +284,12 @@ footer h5 {
     font-family: "Major Mono Display", monospace;
     text-align: center;
     align-items: center;
-    padding-top: 0; /* Removed padding-top */
-    margin-bottom: 2px; /* Reduced from 5px to 2px */
-    line-height: 1; /* Tighter line height */
+    padding-top: 8px;
 }
 
 footer .social {
     text-align: center;
-    margin-top: 0; /* Removed margin-top for minimal spacing */
-    margin-bottom: 0; /* Ensure no bottom margin */
+    
 }
 
 /* Base styling for social icons */
@@ -312,7 +297,7 @@ footer .social {
     display: inline-block;
     transition: all 0.3s ease;
     text-decoration: none;
-    margin: 0 5px;
+    
 }
 
 .social a i {
@@ -328,5 +313,5 @@ footer .social {
 /** Important tag used due to inline styles in HTML required for Social Logo color change **/
 .social a:hover i {
     color: var(--sub-heading-color) !important;
-    transform: scale(1.2);
+    transform: scale(2.0);
 }
