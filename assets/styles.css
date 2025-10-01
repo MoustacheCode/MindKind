@@ -8,6 +8,10 @@
     --background-color: #e8e9ec;
 }
 
+main {
+    flex: 1;
+}
+
 .navbar {
     background-color: #e8e9ec;
     /* Add padding to match hero image margins */
@@ -410,19 +414,24 @@
 
 footer {
     background-color: var(--background-color);
-    height: 200px;
-    margin-top: 1800px;
+    width: 100%;
+    padding: 10px 0;
+    /*  max-height: 75px; */
 }
 
 footer h5 {
     color: var(--heading-color);
     font-family: "Major Mono Display", monospace;
     text-align: center;
-    padding-top: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-footer .social {
+.icon-container {
     display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 10px;
 }
 
 /* Base styling for social icons */
