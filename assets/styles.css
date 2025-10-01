@@ -488,6 +488,8 @@ footer .social {
 .social a i {
     font-size: 1.5rem;
     transition: all 0.3s ease;
+    align-content: center;
+    display: inline-flex;
 }
 
 /* Enhanced hover effects */
