@@ -268,6 +268,98 @@
         center/cover;
 }
 
+/* About Page Card Responsiveness */
+.card-sad,
+.card-anxiety,
+.card-interest,
+.card-disconnect {
+    height: 100%; /* Ensure equal height cards in same row */
+    min-height: 450px; /* Minimum height to maintain consistency */
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.card-sad:hover,
+.card-anxiety:hover,
+.card-interest:hover,
+.card-disconnect:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Ensure card bodies fill available space */
+.card-sad .card-body,
+.card-anxiety .card-body,
+.card-interest .card-body,
+.card-disconnect .card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100%;
+}
+
+/* Responsive about page layout */
+@media (max-width: 576px) {
+    .card-sad,
+    .card-anxiety,
+    .card-interest,
+    .card-disconnect {
+        min-height: 350px;
+        margin-bottom: 15px;
+    }
+
+    .card-title {
+        font-size: 1.3rem;
+    }
+
+    .card-text {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .card-sad,
+    .card-anxiety,
+    .card-interest,
+    .card-disconnect {
+        min-height: 400px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+    .card-sad,
+    .card-anxiety,
+    .card-interest,
+    .card-disconnect {
+        min-height: 420px;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-sad,
+    .card-anxiety,
+    .card-interest,
+    .card-disconnect {
+        min-height: 450px;
+    }
+
+    /* Ensure equal height rows */
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .row > [class*="col-"] {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .hidden {
     display: none;
 }
