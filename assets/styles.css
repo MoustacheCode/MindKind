@@ -39,13 +39,19 @@ main {
 
 /* Style navigation links */
 .nav-link {
-    color: var(--sub-heading-color);
+    color: var(--heading-color);
     font-weight: 500;
     transition: color 0.3s ease;
 }
 
 .nav-link:hover,
 .nav-link.active {
+    color: var(--text-color);
+}
+
+.navbar li {
+    font-family: "permanent marker", cursive;
+    font-size: 1.3rem;
     color: var(--heading-color);
 }
 
