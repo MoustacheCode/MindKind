@@ -268,11 +268,43 @@
         center/cover;
 }
 
+.hidden {
+    display: none;
+}
+
+#infos {
+    color: var(--background-color);
+    font-weight: bolder;
+    font-family: "caveat", cursive;
+    background-color: var(--heading-color);
+}
+
+.cta {
+    font-size: 0.8rem;
+    font-style: italic;
+    color: var(--background-color);
+    text-align: center;
+}
+
+.cta:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: var(--heading-color);
+}
+
+.info-text {
+    color: var(--heading-color);
+    font-family: "Permanent Marker", cursive;
+    transition: max-height 0.3s ease;
+    overflow: hidden;
+    background-color: var(--background-color);
+}
+
 /* Footer Styles */
 
 footer {
     background-color: var(--background-color);
-    height:120px
+    height: 120px;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -289,7 +321,6 @@ footer h5 {
 
 footer .social {
     text-align: center;
-    
 }
 
 /* Base styling for social icons */
@@ -297,7 +328,6 @@ footer .social {
     display: inline-block;
     transition: all 0.3s ease;
     text-decoration: none;
-    
 }
 
 .social a i {
@@ -313,5 +343,5 @@ footer .social {
 /** Important tag used due to inline styles in HTML required for Social Logo color change **/
 .social a:hover i {
     color: var(--sub-heading-color) !important;
-    transform: scale(2.0);
+    transform: scale(2);
 }

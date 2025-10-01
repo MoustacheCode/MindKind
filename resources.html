@@ -20,6 +20,9 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/android-chrome-512x512.png">
     <link rel="manifest" href="/site.webmanifest">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
 </head>
 
 
@@ -66,7 +69,65 @@
 
     <main class="container mt-4">
         <section id="home">
-            <!-- Additional content can go here -->
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="../assets/images/a-uk-logo.png" class="card-img-top" alt="Anxiety UK Logo">
+                            <div class="card-body">
+                                <h5 class="card-title" id="infos" onclick="toggleText(this)">Anxiety UK<br><span
+                                        class="cta">Learn More </span></h5>
+
+                                <p class="info-text hidden">
+
+                                    Anxiety UK has evolved into a national organisation with an international reach
+                                    while remaining run by and for those living with anxiety. Our small team of just
+                                    four, is driven by personal experience, ensuring we truly understand the distress
+                                    that anxiety can cause.
+
+                                    In 2020, we celebrated our 50th anniversary with a commissioned painting by the
+                                    artist Degard, that reflects our journey and commitment to alleviating anxiety’s
+                                    impact. This artwork serves as a tribute to all who have shaped Anxiety UK into what
+                                    it is today and hangs proudly in our boardroom.
+                                </p>
+                                <a href="https://www.anxietyuk.org.uk/" target="_blank" class="btn btn-primary">Visit
+                                    site</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="../assets/images/ym-logo.png" class="card-img-top" alt="Young Minds Logo">
+                            <div class="card-body">
+                                <h5 class="card-title" id="infos" onclick="toggleText(this)">Young Minds<br><span
+                                        class="cta">Learn More </span></h5>
+
+                                <p class="info-text hidden">
+
+                                    YoungMinds is the UK’s leading charity fighting for a future where all young minds
+                                    are supported and empowered, whatever the challenges. Create Development support
+                                    over 6,700 schools to develop the whole child through PE. This new partnership will
+                                    promote YoungMinds 360° schools’ resources to teachers helping them support the
+                                    mental health and wellbeing of all children.
+                                </p>
+                                <a href="https://www.anxietyuk.org.uk/" target="_blank" class="btn btn-primary">Visit
+                                    site</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card’s content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
@@ -96,6 +157,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+
+    <script>
+        function toggleText(titleElement) {
+            const textElement = titleElement.nextElementSibling;
+            textElement.classList.toggle("hidden");
+        }
+    </script>
 </body>
 
 </html>
