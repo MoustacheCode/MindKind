@@ -242,8 +242,29 @@
     text-shadow: 2px 2px 4px black;
 }
 
-#card6 {
+#card1 {
+    background: url(../assets/images/loss-bg.jpg) no-repeat center center/cover;
+}
+
+#card2 {
+    background: url(../assets/images/anxiety-bg.jpg) no-repeat center
+        center/cover;
+}
+
+#card3 {
+    background: url(../assets/images/low-bg.jpg) no-repeat center center/cover;
+}
+
+#card4 {
     background: url(../assets/images/sad-bg.jpg) no-repeat center center/cover;
+}
+
+#card5 {
+    background: ;
+}
+
+#card6 {
+    background: url no-repeat center center/cover;
 }
 
 /* Footer Styles */
