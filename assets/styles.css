@@ -260,18 +260,35 @@
 }
 
 #card5 {
-    background: ;
+    background: url(../assets/images/irit-bg.jpg) no-repeat center center/cover;
 }
 
 #card6 {
-    background: url no-repeat center center/cover;
+    background: url(../assets/images/withdraw-bg.jpg) no-repeat center
+        center/cover;
+}
+
+/* Sticky Footer Setup */
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1; /* This makes main content take up available space */
 }
 
 /* Footer Styles */
 
 footer {
     background-color: var(--background-color);
-    margin-top: 1000px;
+    margin-top: auto; /* Changed from 1000px to auto for sticky behavior */
+    padding: 5px 0; /* Minimal padding for very short footer */
 }
 
 footer h5 {
@@ -279,12 +296,15 @@ footer h5 {
     font-family: "Major Mono Display", monospace;
     text-align: center;
     align-items: center;
-    padding-top: 8px;
+    padding-top: 0; /* Removed padding-top */
+    margin-bottom: 2px; /* Reduced from 5px to 2px */
+    line-height: 1; /* Tighter line height */
 }
 
 footer .social {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 0; /* Removed margin-top for minimal spacing */
+    margin-bottom: 0; /* Ensure no bottom margin */
 }
 
 /* Base styling for social icons */
