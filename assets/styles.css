@@ -303,61 +303,15 @@
     min-height: 100%;
 }
 
-/* Responsive about page layout */
-@media (max-width: 576px) {
-    .card-sad,
-    .card-anxiety,
-    .card-interest,
-    .card-disconnect {
-        min-height: 350px;
-        margin-bottom: 15px;
-    }
-
-    .card-title {
-        font-size: 1.3rem;
-    }
-
-    .card-text {
-        font-size: 1rem;
-    }
+/* Ensure equal height rows */
+.row {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-@media (min-width: 577px) and (max-width: 768px) {
-    .card-sad,
-    .card-anxiety,
-    .card-interest,
-    .card-disconnect {
-        min-height: 400px;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 991px) {
-    .card-sad,
-    .card-anxiety,
-    .card-interest,
-    .card-disconnect {
-        min-height: 420px;
-    }
-}
-
-@media (min-width: 992px) {
-    .card-sad,
-    .card-anxiety,
-    .card-interest,
-    .card-disconnect {
-        min-height: 450px;
-    }
-
-    /* Ensure equal height rows */
-    .row {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .row > [class*="col-"] {
-        display: flex;
-        flex-direction: column;
-    }
+.row > [class*="col-"] {
+    display: flex;
+    flex-direction: column;
 }
 
 .hidden {
@@ -427,34 +381,28 @@
     flex-direction: column;
 }
 
-/* Responsive spacing and alignment */
-@media (max-width: 576px) {
-    .card {
-        margin-bottom: 15px;
-    }
-
-    .container {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
+.form-label {
+    color: var(--heading-color);
+    font-family: "Permanent Marker", cursive;
+    font-size: 1.5rem;
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-    .card {
-        margin-bottom: 20px;
-    }
+#form-h2 {
+    color: var(--heading-color);
+    font-family: "Major Mono Display", monospace;
+    text-align: center;
+    font-weight: bolder;
 }
 
-@media (min-width: 992px) {
-    .card {
-        margin-bottom: 25px;
-    }
-
-    /* Ensure cards have consistent spacing on larger screens */
-    .col-lg-4 {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
+#help {
+    background-color: var(--background-color);
+    font-family: "permanent marker", cursive;
+    font-size: 1.5rem;
+    color: var(--heading-color);
+    padding: 20px;
+    margin: 20px;
+    margin-top: 30px;
+    margin-right: 20px; /* Match hero image and quote container alignment */
 }
 
 /* Footer Styles */
@@ -501,4 +449,80 @@ footer .social {
 .social a:hover i {
     color: var(--sub-heading-color) !important;
     transform: scale(2);
+}
+
+/* Responsive about page layout */
+@media (max-width: 576px) {
+    .card-sad,
+    .card-anxiety,
+    .card-interest,
+    .card-disconnect {
+        min-height: 350px;
+        margin-bottom: 15px;
+    }
+
+    .card-title {
+        font-size: 1.3rem;
+    }
+
+    .card-text {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .card-sad,
+    .card-anxiety,
+    .card-interest,
+    .card-disconnect {
+        min-height: 400px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+    .card-sad,
+    .card-anxiety,
+    .card-interest,
+    .card-disconnect {
+        min-height: 420px;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-sad,
+    .card-anxiety,
+    .card-interest,
+    .card-disconnect {
+        min-height: 450px;
+    }
+}
+
+/* Responsive spacing and alignment */
+@media (max-width: 576px) {
+    .card {
+        margin-bottom: 15px;
+    }
+
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .card {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    .card {
+        margin-bottom: 25px;
+    }
+
+    /* Ensure cards have consistent spacing on larger screens */
+    .col-lg-4 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
