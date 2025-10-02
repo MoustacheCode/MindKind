@@ -1,8 +1,6 @@
 <img width="612" height="170" alt="readme-logo" src="https://github.com/user-attachments/assets/9525125b-95de-48c1-9847-f933da4a1fff" />
 
-![HTML](https://img.shields.io/badge/HTML-5-orange?style=flat-square&logo=html5)
-![CSS](https://img.shields.io/badge/CSS-3-blue?style=flat-square&logo=css3)
-![Bootstrap](<[https://img.shields.i##](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)>)
+
 
 📞 Acknowledgments
 
@@ -62,7 +60,10 @@ Explore the initial design concepts and user flows:
 
 ### 📐 Performance
 
--   [Lighthouse Insights](
+-   [Lighthouse Insight - Mobile](<img width="995" height="686" alt="lighthouse-mobile" src="https://github.com/user-attachments/assets/00f3153e-0046-4791-bacc-0016af1c6b4a" />
+-   [Lighthouse Insight - Desktop](<img width="976" height="706" alt="lighthouse-desktop" src="https://github.com/user-attachments/assets/9fdd5dc2-c77b-4f00-9adf-396d7ce0778d" />
+
+
 
 ## ✨ Features
 
@@ -149,13 +150,13 @@ Explore the initial design concepts and user flows:
 
 <!-- Add your live demo link here -->
 
-🌐 **Live Demo:** [View MindKind Live](your-demo-link-here)
+🌐 **Live Demo:** [View MindKind Live](https://moustachecode.github.io/MindKind/)
 
 <!-- Add screenshots section -->
 
 ### Screenshots
 
-![Homepage Preview](screenshot-placeholder.png)
+![Homepage Preview](<img width="1703" height="1346" alt="home-preview" src="https://github.com/user-attachments/assets/149159c1-71e9-484a-b97d-bc19d5a3a69a" />)
 _Clean, calming homepage design focused on mental health support_
 
 ## 📦 Installation
