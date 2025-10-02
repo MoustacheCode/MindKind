@@ -77,6 +77,13 @@ Validated using W3C for HTML & CSS displaying 1 warning for HTML (Style related)
 <img width="696" height="123" alt="css" src="https://github.com/user-attachments/assets/3894ae25-f29b-41b6-806e-bdc9f5e8b853" />
 
 
+### Readability
+
+Readability checked by WebFX, scoring 72 which should be age appropriate for the content.
+
+<img width="528" height="197" alt="readability" src="https://github.com/user-attachments/assets/45bf7db3-ab9f-443c-a308-0ce2e6006a96" />
+
+
 ## Features
 
 ### **Home Page with Hero Section**
