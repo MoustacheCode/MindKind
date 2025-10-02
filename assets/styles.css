@@ -335,6 +335,62 @@ main {
     background-color: var(--heading-color);
 }
 
+#infos1 {
+    color: var(--background-color);
+    font-weight: bolder;
+    font-family: "caveat", cursive;
+    background-color: var(--heading-color);
+}
+
+#infos2 {
+    color: var(--background-color);
+    font-weight: bolder;
+    font-family: "caveat", cursive;
+    background-color: var(--heading-color);
+}
+
+#infos3 {
+    color: var(--background-color);
+    font-weight: bolder;
+    font-family: "caveat", cursive;
+    background-color: var(--heading-color);
+}
+
+#infos4 {
+    color: var(--background-color);
+    font-weight: bolder;
+    font-family: "caveat", cursive;
+    background-color: var(--heading-color);
+}
+
+#infos5 {
+    color: var(--background-color);
+    font-weight: bolder;
+    font-family: "caveat", cursive;
+    background-color: var(--heading-color);
+}
+
+#infos6 {
+    color: var(--background-color);
+    font-weight: bolder;
+    font-family: "caveat", cursive;
+    background-color: var(--heading-color);
+}
+
+#infos7 {
+    color: var(--background-color);
+    font-weight: bolder;
+    font-family: "caveat", cursive;
+    background-color: var(--heading-color);
+}
+
+#infos8 {
+    color: var(--background-color);
+    font-weight: bolder;
+    font-family: "caveat", cursive;
+    background-color: var(--heading-color);
+}
+
 .cta {
     font-size: 0.8rem;
     font-style: italic;
