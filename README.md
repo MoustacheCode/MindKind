@@ -50,21 +50,23 @@ At MindKind, we understand that life can be challenging, and caring for your men
 
 MindKind is designed with a user-centered approach to ensure accessibility, clarity, and emotional comfort. The UX process focused on:
 
--   **Empathetic user journeys** tailored for individuals seeking mental health support
--   **Simple, intuitive navigation** for all ages and abilities
--   **Calming visual hierarchy** with clear calls-to-action and minimal distractions
--   **Accessibility best practices** for color contrast, font size, and keyboard navigation
--   **Co-Pilot** for quickly implementing Bootstrap into the HTML Document and alleviating repetition.
+-   **Empathetic user journeys** tailored for individuals seeking mental health tips & support
+-   **Simple, intuitive navigation** for all ages and abilities, allowing anyone with a Grade School education to understand.
+-   **Calming visual hierarchy** with clear calls-to-action and minimal distractions, utilising bootstrap buttons.
+-   **Accessibility best practices** for color contrast, font size, and keyboard navigation - Utilising root colors in the style sheet. Some images are blurred by design to emphasise the feeling.
+-   **Co-Pilot** for quickly implementing Bootstrap into the HTML Document and alleviating repetition, validating my code 
 
 ### Wireframes
 
-Explore the initial design concepts and user flows:
+Explore the initial design concepts and user flows, built uising Balsamiq:
 
 -   [Home Page Wireframe](https://github.com/MoustacheCode/MindKind/blob/main/assets/images/Wireframes/home-page.png?raw=true)
 -   [Tips Page Wireframe](https://github.com/MoustacheCode/MindKind/blob/main/assets/images/Wireframes/about.png?raw=true)
 -   [Resources Page Wireframe](https://github.com/MoustacheCode/MindKind/blob/main/assets/images/Wireframes/resources.png?raw=true)
 
 ### Performance
+
+Running the code through Lighthouse showed high scoring on both Mobile and Desktop devices. The Bootstrap Grid templates utilised make the layout responsive across all screen sizes. 
 
 -   [Lighthouse Insight - Mobile](<img width="995" height="686" alt="lighthouse-mobile" src="https://github.com/user-attachments/assets/00f3153e-0046-4791-bacc-0016af1c6b4a" />
 -   [Lighthouse Insight - Desktop](<img width="976" height="706" alt="lighthouse-desktop" src="https://github.com/user-attachments/assets/9fdd5dc2-c77b-4f00-9adf-396d7ce0778d" />
@@ -95,31 +97,31 @@ Readability checked by WebFX, scoring 72 which should be age appropriate for the
 
 ### **Tips Page (Mental Health Guidance)**
 
--   **6 comprehensive guidance cards** covering common mental health challenges:
+-   **6 comprehensive guidance cards** using Bootstraps Grid, covering common mental health challenges:
     -   Persistent Low Mood or Sadness
     -   Anxiety or Racing Thoughts
     -   Sleep Disturbances
     -   Loss of Interest or Motivation
     -   Irritability or Emotional Overwhelm
     -   Social Withdrawal or Feeling Disconnected
--   **Practical, actionable advice** for each condition with specific coping strategies
--   **Responsive card design** with background imagery and clear typography
+-   **Practical, actionable advice** for each symptom with specific coping strategies and tips
+-   **Responsive card design** with background imagery to represent each particular card and clear typography
 
 ### **Resources Page (Professional Support)**
 
--   **9 curated UK mental health organizations** with detailed information:
+-   **9 curated UK mental health organizations** built using Bootstraps Grid system, with detailed information:
     -   Anxiety UK, YoungMinds, Samaritans
     -   Rethink Mental Illness, Compass UK, Mind
     -   The Health Foundation, Alzheimer's Society, Health For All
--   **Interactive expandable cards** with organization descriptions
--   **Direct links** to professional mental health services
--   **Toggle functionality** for detailed organization information
+-   **Interactive expandable cards** with organization descriptions and logo to clearly represent.
+-   **Direct links** to professional mental health services and support pages, that can offer further support and advise.
+-   **Toggle functionality** for detailed organization information, allowing for a sleeker look, that can be expanded at the user preference.
 
 ### **Contact Page**
 
--   **Accessible contact form** with proper validation
--   **Crisis support information** (Samaritans helpline: 116 123)
--   **Thank you page** with immediate crisis resources
+-   **Accessible contact form** with proper validation, that can be submit where you are greeted by a Thank You page to confirm the user message has been received.
+-   **Crisis support information** (Samaritans helpline: 116 123) - I implemented this to target anybody who may require more support than digital support.
+-   **Thank you page** with immediate crisis resources clearly outlined, and a button to return to home page.
 
 ### **Design & Accessibility**
 
