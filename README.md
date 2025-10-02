@@ -41,7 +41,7 @@ Built with modern web technologies including HTML5, CSS3, and Bootstrap 5, this 
 
 At MindKind, we understand that life can be challenging, and caring for your mental health is not just important — it's essential. Whether you're navigating stress, anxiety, low mood, or simply seeking space to breathe, we're here to walk beside you. Our mission is to provide inclusive, accessible resources and tools to help you nurture your mind, build resilience, and rediscover joy.
 
-## 🖌️ UX Design
+## 🖌️ UX Design & Performance
 
 MindKind is designed with a user-centered approach to ensure accessibility, clarity, and emotional comfort. The UX process focused on:
 
@@ -54,9 +54,9 @@ MindKind is designed with a user-centered approach to ensure accessibility, clar
 
 Explore the initial design concepts and user flows:
 
--   [Home Page Wireframe](../assets/images/Wireframes/home-page.png)
--   [Tips Page Wireframe](../assets/images/Wireframes/about.png)
--   [Resources Page Wireframe](../assets/images/Wireframes/resources.png)
+-   [Home Page Wireframe](https://github.com/MoustacheCode/MindKind/blob/main/assets/images/Wireframes/home-page.png?raw=true)
+-   [Tips Page Wireframe](https://github.com/MoustacheCode/MindKind/blob/main/assets/images/Wireframes/about.png?raw=true)
+-   [Resources Page Wireframe](https://github.com/MoustacheCode/MindKind/blob/main/assets/images/Wireframes/resources.png?raw=true)
 
 _Replace the above links with your actual wireframe URLs or files._
 
