@@ -13,6 +13,8 @@
 -   **Mental health advocates** and professionals who inspire compassionate digital spaces
 -   **Everyone** who contributes to making mental health resources more accessible and inclusivege/Bootstrap-5-purple?style=flat-square&logo=bootstrap)
 -   **Naude** for their AI Chat bot, providing supportive conversations and guidance for Health & Wellbeing
+
+  
     ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
 > _A gentle digital space designed to support mental health and emotional well-being_
