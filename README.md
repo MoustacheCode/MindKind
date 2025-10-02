@@ -1,8 +1,9 @@
-# 🧠💚 MindKind
+<img width="1536" height="1024" alt="readme-logo" src="https://github.com/user-attachments/assets/3f447b86-a831-42db-99d3-f9c40def52b7" />
 
 ![HTML](https://img.shields.io/badge/HTML-5-orange?style=flat-square&logo=html5)
 ![CSS](https://img.shields.io/badge/CSS-3-blue?style=flat-square&logo=css3)
-![Bootstrap](https://img.shields.i## 📞 Acknowledgments
+![Bootstrap](https://img.shields.i##) 📞 Acknowledgments<img width="1536" height="1024" alt="readme-logo" src="https://github.com/user-attachments/assets/3f447b86-a831-42db-99d3-f9c40def52b7" />
+
 
 -   **UK Mental Health Organizations** featured in our resources:
     -   Anxiety UK, YoungMinds, Samaritans, Mind, Rethink Mental Illness
