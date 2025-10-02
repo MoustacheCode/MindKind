@@ -29,7 +29,10 @@
 -   [License](#license)
 -   [Contact](#contact)
 
-## 🌟 Overview
+🌐 **Live Demo:** [View MindKind Live](https://moustachecode.github.io/MindKind/)
+
+
+## 🌟 ##Overview
 
 MindKind is a compassionate digital platform created specifically for UK audiences to provide support, clarity, and connection for anyone navigating mental health challenges. Your trusted companion on the journey to mental well-being.
 
@@ -145,19 +148,6 @@ Explore the initial design concepts and user flows:
 -   Form submission confirmation
 -   Crisis support information (Samaritans: 116 123)
 -   Return to home navigation
-
-## �🚀 Demo
-
-<!-- Add your live demo link here -->
-
-🌐 **Live Demo:** [View MindKind Live](https://moustachecode.github.io/MindKind/)
-
-<!-- Add screenshots section -->
-
-### Screenshots
-
-![Homepage Preview](<img width="1703" height="1346" alt="home-preview" src="https://github.com/user-attachments/assets/149159c1-71e9-484a-b97d-bc19d5a3a69a" />)
-_Clean, calming homepage design focused on mental health support_
 
 ## 📦 Installation
 
