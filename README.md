@@ -1,8 +1,10 @@
-# 🧠💚 MindKind
+<img width="612" height="170" alt="readme-logo" src="https://github.com/user-attachments/assets/9525125b-95de-48c1-9847-f933da4a1fff" />
 
 ![HTML](https://img.shields.io/badge/HTML-5-orange?style=flat-square&logo=html5)
 ![CSS](https://img.shields.io/badge/CSS-3-blue?style=flat-square&logo=css3)
-![Bootstrap](https://img.shields.i## 📞 Acknowledgments
+![Bootstrap](<[https://img.shields.i##](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)>)
+
+📞 Acknowledgments
 
 -   **UK Mental Health Organizations** featured in our resources:
     -   Anxiety UK, YoungMinds, Samaritans, Mind, Rethink Mental Illness
@@ -58,7 +60,9 @@ Explore the initial design concepts and user flows:
 -   [Tips Page Wireframe](https://github.com/MoustacheCode/MindKind/blob/main/assets/images/Wireframes/about.png?raw=true)
 -   [Resources Page Wireframe](https://github.com/MoustacheCode/MindKind/blob/main/assets/images/Wireframes/resources.png?raw=true)
 
-_Replace the above links with your actual wireframe URLs or files._
+### 📐 Performance
+
+-   [Lighthouse Insights](
 
 ## ✨ Features
 
