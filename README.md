@@ -1,5 +1,6 @@
-
+<p align="center"
 <img width="612" height="170" alt="readme-logo" src="https://github.com/user-attachments/assets/9525125b-95de-48c1-9847-f933da4a1fff" />
+</p>
 
 ![HTML](https://img.shields.io/badge/HTML-5-orange?style=flat-square&logo=html5)
 ![CSS](https://img.shields.io/badge/CSS-3-blue?style=flat-square&logo=css3)
