@@ -2,8 +2,18 @@
 
 ![HTML](https://img.shields.io/badge/HTML-5-orange?style=flat-square&logo=html5)
 ![CSS](https://img.shields.io/badge/CSS-3-blue?style=flat-square&logo=css3)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple?style=flat-square&logo=bootstrap)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+![Bootstrap](https://img.shields.i## 📞 Acknowledgments
+
+-   **UK Mental Health Organizations** featured in our resources:
+    -   Anxiety UK, YoungMinds, Samaritans, Mind, Rethink Mental Illness
+    -   Compass UK, The Health Foundation, Alzheimer's Society, Health For All
+-   **Quote Contributors**: Charles Dickens, David Mitchell, Louise Hay, Raymond McCauley, Corrie Ten Boom, Russ Harris
+-   **Bootstrap Team** for the excellent responsive framework
+-   **Google Fonts** for typography that enhances readability and accessibility
+-   **Mental health advocates** and professionals who inspire compassionate digital spaces
+-   **Everyone** who contributes to making mental health resources more accessible and inclusivege/Bootstrap-5-purple?style=flat-square&logo=bootstrap)
+-   **Naude** for their AI Chat bot, providing supportive conversations and guidance for Health & Wellbeing
+    ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
 > _A gentle digital space designed to support mental health and emotional well-being_
 
@@ -21,33 +31,117 @@
 
 ## 🌟 Overview
 
-MindKind is a compassionate digital platform created to provide support, clarity, and connection for anyone navigating mental health challenges. Built with modern web technologies including HTML, CSS, and Bootstrap, this project offers an accessible and welcoming experience through its clean, calming design.
+MindKind is a compassionate digital platform created specifically for UK audiences to provide support, clarity, and connection for anyone navigating mental health challenges. Your trusted companion on the journey to mental well-being.
 
-The platform emphasizes emotional safety and accessibility, featuring soft color schemes, spacious layouts, and uplifting content designed to help users feel supported and understood.
+In the UK, 1 in 4 adults experience a mental health problem each year, and nearly 20% of young people live with a probable mental health condition. These numbers reflect not just statistics, but the everyday reality of millions — and the urgent need for compassion, connection, and support.
+
+Built with modern web technologies including HTML5, CSS3, and Bootstrap 5, this project offers an accessible and welcoming experience through its clean, calming design with soft color schemes, spacious layouts, and uplifting content.
 
 ### 🎯 Purpose
 
-Whether you're feeling overwhelmed, seeking information, or simply in need of encouragement, MindKind provides a safe space for mental health resources and positive messaging.
+At MindKind, we understand that life can be challenging, and caring for your mental health is not just important — it's essential. Whether you're navigating stress, anxiety, low mood, or simply seeking space to breathe, we're here to walk beside you. Our mission is to provide inclusive, accessible resources and tools to help you nurture your mind, build resilience, and rediscover joy.
+
+## 🖌️ UX Design
+
+MindKind is designed with a user-centered approach to ensure accessibility, clarity, and emotional comfort. The UX process focused on:
+
+-   **Empathetic user journeys** tailored for individuals seeking mental health support
+-   **Simple, intuitive navigation** for all ages and abilities
+-   **Calming visual hierarchy** with clear calls-to-action and minimal distractions
+-   **Accessibility best practices** for color contrast, font size, and keyboard navigation
+
+### 📐 Wireframes
+
+Explore the initial design concepts and user flows:
+
+-   [Home Page Wireframe](../assets/images/Wireframes/home-page.png)
+-   [Tips Page Wireframe](../assets/images/Wireframes/about.png)
+-   [Resources Page Wireframe](../assets/images/Wireframes/resources.png)
+
+_Replace the above links with your actual wireframe URLs or files._
 
 ## ✨ Features
 
-### 🏠 **Hero Section with Positive Messaging**
+### 🏠 **Home Page with Hero Section**
 
-A calming introduction that sets an encouraging and empathetic tone for visitors.
+-   **Calming hero image** with branded messaging "Your mind matters. Always."
+-   **Interactive inspirational quotes carousel** featuring 6 rotating quotes from mental health advocates
+-   **UK-focused statistics** and empathetic introduction to mental health support
+-   **Clear call-to-action** directing users to explore further resources
 
-### 💡 **Information Cards**
+### 🧭 **Tips Page (Mental Health Guidance)**
 
-Bite-sized tips and insights on common mental health topics, presented with clarity and ease of understanding.
+-   **6 comprehensive guidance cards** covering common mental health challenges:
+    -   Persistent Low Mood or Sadness
+    -   Anxiety or Racing Thoughts
+    -   Sleep Disturbances
+    -   Loss of Interest or Motivation
+    -   Irritability or Emotional Overwhelm
+    -   Social Withdrawal or Feeling Disconnected
+-   **Practical, actionable advice** for each condition with specific coping strategies
+-   **Responsive card design** with background imagery and clear typography
 
-### 🔗 **Resource Links**
+### 🔗 **Resources Page (Professional Support)**
 
-A carefully curated grid of trusted external mental health resources, clearly labeled and easily accessible.
+-   **9 curated UK mental health organizations** with detailed information:
+    -   Anxiety UK, YoungMinds, Samaritans
+    -   Rethink Mental Illness, Compass UK, Mind
+    -   The Health Foundation, Alzheimer's Society, Health For All
+-   **Interactive expandable cards** with organization descriptions
+-   **Direct links** to professional mental health services
+-   **Toggle functionality** for detailed organization information
 
-### 💭 **Inspirational Quote Carousel**
+### � **Contact Page**
 
-Rotating affirmations and positive messages designed to provide emotional uplift and gentle motivation.
+-   **Accessible contact form** with proper validation
+-   **Crisis support information** (Samaritans helpline: 116 123)
+-   **Thank you page** with immediate crisis resources
 
-## 🚀 Demo
+### 🎨 **Design & Accessibility**
+
+-   **Responsive design** optimized for all devices
+-   **Calming color palette** (steel blue, light steel blue, soft grays)
+-   **Custom typography** using Google Fonts (Major Mono Display, Permanent Marker, Caveat)
+-   **Social media integration** with hover effects
+-   **Consistent navigation** across all pages
+
+## � Page Structure
+
+### 🏠 **index.html** - Home Page
+
+-   Hero section with brand messaging
+-   Interactive quotes carousel (6 inspirational quotes)
+-   Welcome content with UK mental health statistics
+-   Call-to-action button to Tips page
+
+### 🧭 **about.html** - Tips & Guidance
+
+-   6 mental health condition cards with:
+    -   Detailed descriptions and symptoms
+    -   Practical coping strategies
+    -   Professional styling with background images
+    -   Links to Resources page
+
+### 🔗 **resources.html** - Professional Resources
+
+-   9 UK mental health organization cards
+-   Interactive expand/collapse functionality
+-   Direct links to professional websites
+-   Comprehensive organization descriptions
+
+### 📞 **contact.html** - Contact Form
+
+-   User-friendly contact form with validation
+-   Name, email, and message fields
+-   Proper form accessibility with labels
+
+### ✅ **help.html** - Thank You Page
+
+-   Form submission confirmation
+-   Crisis support information (Samaritans: 116 123)
+-   Return to home navigation
+
+## �🚀 Demo
 
 <!-- Add your live demo link here -->
 
@@ -62,6 +156,13 @@ _Clean, calming homepage design focused on mental health support_
 
 ## 📦 Installation
 
+### Prerequisites
+
+-   A modern web browser (Chrome, Firefox, Safari, Edge)
+-   Optional: Live server extension for development
+
+### Steps
+
 1. **Clone the repository**
 
     ```bash
@@ -74,26 +175,119 @@ _Clean, calming homepage design focused on mental health support_
     cd MindKind
     ```
 
-3. **Open in your browser**
+3. **Open the website**
+
+    **Option A: Direct browser opening**
+
     ```bash
-    # Simply open index.html in your preferred browser
-    # Or use a live server extension in VS Code
+    # Simply double-click index.html or open it in your browser
     ```
+
+    **Option B: Using VS Code Live Server (Recommended)**
+
+    ```bash
+    # Install Live Server extension in VS Code
+    # Right-click index.html and select "Open with Live Server"
+    ```
+
+    **Option C: Local development server**
+
+    ```bash
+    # Using Python 3
+    python -m http.server 8000
+
+    # Using Node.js
+    npx serve .
+    ```
+
+### Project Structure
+
+```
+MindKind/
+├── index.html          # Home page with quotes carousel
+├── about.html          # Tips page with mental health guidance
+├── resources.html      # Professional resources page
+├── contact.html        # Contact form
+├── help.html           # Thank you/confirmation page
+├── README.md           # Project documentation
+└── assets/
+    ├── styles.css      # Custom CSS styling
+    ├── favicon/        # Website icons
+    │   ├── android-chrome-*.png
+    │   ├── apple-touch-icon.png
+    │   ├── favicon.ico
+    │   └── site.webmanifest
+    └── images/         # Background images and logos
+        ├── Logo.png
+        ├── hero-image-2.jpg
+        ├── about-image.jpg
+        ├── health-services.jpg
+        └── [organization logos and backgrounds]
+```
 
 ## 💻 Usage
 
-1. Open `index.html` in your web browser
-2. Navigate through the different sections to explore mental health resources
-3. Use the carousel to view inspirational quotes
-4. Access external resources through the provided links
-5. Enjoy the calming, supportive interface designed for emotional well-being
+### Navigation
+
+1. **Home** - Start here for an introduction and inspirational quotes
+2. **Tips** - Explore guidance for specific mental health challenges
+3. **Resources** - Find professional UK mental health organizations
+4. **Contact** - Reach out for support or feedback
+
+### Key Features
+
+-   **Browse inspirational quotes** using the carousel navigation arrows
+-   **Explore mental health tips** by reading the 6 condition-specific cards
+-   **Discover resources** by clicking "Learn More" on organization cards
+-   **Access professional help** through direct links to mental health services
+-   **Submit inquiries** via the contact form for personalized support
+
+### 🤖 AI Chat Assistant
+
+MindKind features an integrated AI Chat assistant designed to offer supportive, non-judgmental conversations for mental health and well-being. The assistant can:
+
+-   Provide general information about mental health topics
+-   Suggest coping strategies and self-care tips
+-   Guide users to relevant resources and professional organizations
+-   Offer a compassionate, listening ear (not a substitute for professional help)
+
+**How to use:**  
+Access the AI Chat assistant via the chat icon on the Contact page. Conversations are private and designed to be supportive, but always seek professional help for urgent or serious concerns.
+
+---
+
+### For Crisis Support
+
+If you need immediate assistance, the website prominently displays:
+
+-   **Samaritans helpline: 116 123** (available 24/7)
+-   Crisis information on the thank you page after form submission
 
 ## 🛠️ Technologies Used
 
--   **HTML5** - Structure and semantic markup
--   **CSS3** - Styling and responsive design
--   **Bootstrap 5** - Component framework and grid system
--   **Responsive Design** - Mobile-first approach for accessibility
+### Frontend Technologies
+
+-   **Naude AI Chat Bot** - Integrated conversational assistant for supportive mental health guidance
+-   **HTML5** - Semantic markup and accessibility features
+-   **CSS3** - Custom styling with CSS variables and responsive design
+-   **Bootstrap 5.3.2** - Component framework, grid system, and interactive elements
+-   **Bootstrap Icons** - Social media and UI icons
+-   **Font Awesome 6.4.0** - Additional iconography
+
+### Design Elements
+
+-   **Google Fonts** - Major Mono Display, Permanent Marker, Caveat, Tangerine
+-   **Responsive Design** - Mobile-first approach with breakpoint optimization
+-   **CSS Grid & Flexbox** - Modern layout techniques
+-   **Custom CSS Variables** - Consistent color theming
+-   **Interactive Components** - Carousel, expandable cards, hover effects
+
+### Accessibility Features
+
+-   **Semantic HTML** - Proper heading hierarchy and ARIA labels
+-   **Form Validation** - Required fields and proper input types
+-   **Alt Text** - Descriptive image descriptions
+-   **Focus Management** - Keyboard navigation support
 
 ## 🤝 Contributing
 
