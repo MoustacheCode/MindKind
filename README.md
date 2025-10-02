@@ -1,8 +1,6 @@
 <img width="612" height="170" alt="readme-logo" src="https://github.com/user-attachments/assets/9525125b-95de-48c1-9847-f933da4a1fff" />
 
-![HTML](https://img.shields.io/badge/HTML-5-orange?style=flat-square&logo=html5)
-![CSS](https://img.shields.io/badge/CSS-3-blue?style=flat-square&logo=css3)
-![Bootstrap](<[https://img.shields.i##](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)>)
+
 
 📞 Acknowledgments
 
@@ -31,7 +29,10 @@
 -   [License](#license)
 -   [Contact](#contact)
 
-## 🌟 Overview
+🌐 **Live Demo:** [View MindKind Live](https://moustachecode.github.io/MindKind/)
+
+
+## Overview
 
 MindKind is a compassionate digital platform created specifically for UK audiences to provide support, clarity, and connection for anyone navigating mental health challenges. Your trusted companion on the journey to mental well-being.
 
@@ -39,11 +40,11 @@ In the UK, 1 in 4 adults experience a mental health problem each year, and nearl
 
 Built with modern web technologies including HTML5, CSS3, and Bootstrap 5, this project offers an accessible and welcoming experience through its clean, calming design with soft color schemes, spacious layouts, and uplifting content.
 
-### 🎯 Purpose
+### Purpose
 
 At MindKind, we understand that life can be challenging, and caring for your mental health is not just important — it's essential. Whether you're navigating stress, anxiety, low mood, or simply seeking space to breathe, we're here to walk beside you. Our mission is to provide inclusive, accessible resources and tools to help you nurture your mind, build resilience, and rediscover joy.
 
-## 🖌️ UX Design & Performance
+## UX Design & Performance
 
 MindKind is designed with a user-centered approach to ensure accessibility, clarity, and emotional comfort. The UX process focused on:
 
@@ -52,7 +53,7 @@ MindKind is designed with a user-centered approach to ensure accessibility, clar
 -   **Calming visual hierarchy** with clear calls-to-action and minimal distractions
 -   **Accessibility best practices** for color contrast, font size, and keyboard navigation
 
-### 📐 Wireframes
+### Wireframes
 
 Explore the initial design concepts and user flows:
 
@@ -60,20 +61,23 @@ Explore the initial design concepts and user flows:
 -   [Tips Page Wireframe](https://github.com/MoustacheCode/MindKind/blob/main/assets/images/Wireframes/about.png?raw=true)
 -   [Resources Page Wireframe](https://github.com/MoustacheCode/MindKind/blob/main/assets/images/Wireframes/resources.png?raw=true)
 
-### 📐 Performance
+### Performance
 
--   [Lighthouse Insights](
+-   [Lighthouse Insight - Mobile](<img width="995" height="686" alt="lighthouse-mobile" src="https://github.com/user-attachments/assets/00f3153e-0046-4791-bacc-0016af1c6b4a" />
+-   [Lighthouse Insight - Desktop](<img width="976" height="706" alt="lighthouse-desktop" src="https://github.com/user-attachments/assets/9fdd5dc2-c77b-4f00-9adf-396d7ce0778d" />
 
-## ✨ Features
 
-### 🏠 **Home Page with Hero Section**
+
+## Features
+
+### **Home Page with Hero Section**
 
 -   **Calming hero image** with branded messaging "Your mind matters. Always."
 -   **Interactive inspirational quotes carousel** featuring 6 rotating quotes from mental health advocates
 -   **UK-focused statistics** and empathetic introduction to mental health support
 -   **Clear call-to-action** directing users to explore further resources
 
-### 🧭 **Tips Page (Mental Health Guidance)**
+### **Tips Page (Mental Health Guidance)**
 
 -   **6 comprehensive guidance cards** covering common mental health challenges:
     -   Persistent Low Mood or Sadness
@@ -85,7 +89,7 @@ Explore the initial design concepts and user flows:
 -   **Practical, actionable advice** for each condition with specific coping strategies
 -   **Responsive card design** with background imagery and clear typography
 
-### 🔗 **Resources Page (Professional Support)**
+### **Resources Page (Professional Support)**
 
 -   **9 curated UK mental health organizations** with detailed information:
     -   Anxiety UK, YoungMinds, Samaritans
@@ -95,13 +99,13 @@ Explore the initial design concepts and user flows:
 -   **Direct links** to professional mental health services
 -   **Toggle functionality** for detailed organization information
 
-### � **Contact Page**
+### **Contact Page**
 
 -   **Accessible contact form** with proper validation
 -   **Crisis support information** (Samaritans helpline: 116 123)
 -   **Thank you page** with immediate crisis resources
 
-### 🎨 **Design & Accessibility**
+### **Design & Accessibility**
 
 -   **Responsive design** optimized for all devices
 -   **Calming color palette** (steel blue, light steel blue, soft grays)
@@ -109,16 +113,16 @@ Explore the initial design concepts and user flows:
 -   **Social media integration** with hover effects
 -   **Consistent navigation** across all pages
 
-## � Page Structure
+##  Page Structure
 
-### 🏠 **index.html** - Home Page
+###  **index.html** - Home Page
 
 -   Hero section with brand messaging
 -   Interactive quotes carousel (6 inspirational quotes)
 -   Welcome content with UK mental health statistics
 -   Call-to-action button to Tips page
 
-### 🧭 **about.html** - Tips & Guidance
+###  **about.html** - Tips & Guidance
 
 -   6 mental health condition cards with:
     -   Detailed descriptions and symptoms
@@ -126,39 +130,26 @@ Explore the initial design concepts and user flows:
     -   Professional styling with background images
     -   Links to Resources page
 
-### 🔗 **resources.html** - Professional Resources
+###  **resources.html** - Professional Resources
 
 -   9 UK mental health organization cards
 -   Interactive expand/collapse functionality
 -   Direct links to professional websites
 -   Comprehensive organization descriptions
 
-### 📞 **contact.html** - Contact Form
+###  **contact.html** - Contact Form
 
 -   User-friendly contact form with validation
 -   Name, email, and message fields
 -   Proper form accessibility with labels
 
-### ✅ **help.html** - Thank You Page
+###  **help.html** - Thank You Page
 
 -   Form submission confirmation
 -   Crisis support information (Samaritans: 116 123)
 -   Return to home navigation
 
-## �🚀 Demo
-
-<!-- Add your live demo link here -->
-
-🌐 **Live Demo:** [View MindKind Live](your-demo-link-here)
-
-<!-- Add screenshots section -->
-
-### Screenshots
-
-![Homepage Preview](screenshot-placeholder.png)
-_Clean, calming homepage design focused on mental health support_
-
-## 📦 Installation
+##  Installation
 
 ### Prerequisites
 
@@ -229,7 +220,7 @@ MindKind/
         └── [organization logos and backgrounds]
 ```
 
-## 💻 Usage
+##  Usage
 
 ### Navigation
 
@@ -246,7 +237,7 @@ MindKind/
 -   **Access professional help** through direct links to mental health services
 -   **Submit inquiries** via the contact form for personalized support
 
-### 🤖 AI Chat Assistant
+###  AI Chat Assistant
 
 MindKind features an integrated AI Chat assistant designed to offer supportive, non-judgmental conversations for mental health and well-being. The assistant can:
 
@@ -267,7 +258,7 @@ If you need immediate assistance, the website prominently displays:
 -   **Samaritans helpline: 116 123** (available 24/7)
 -   Crisis information on the thank you page after form submission
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 ### Frontend Technologies
 
@@ -293,7 +284,7 @@ If you need immediate assistance, the website prominently displays:
 -   **Alt Text** - Descriptive image descriptions
 -   **Focus Management** - Keyboard navigation support
 
-## 🤝 Contributing
+##  Contributing
 
 We welcome contributions that help make mental health resources more accessible! Here's how you can help:
 
@@ -310,7 +301,7 @@ We welcome contributions that help make mental health resources more accessible!
 -   Test responsiveness across different devices
 -   Follow accessibility best practices
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
@@ -321,7 +312,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 -   GitHub: [@MoustacheCode](https://github.com/MoustacheCode)
 -   Repository: [MindKind](https://github.com/MoustacheCode/MindKind)
 
-## 💙 Acknowledgments
+## Acknowledgments
 
 -   Thanks to all mental health advocates and professionals who inspire this work
 -   Bootstrap team for the excellent framework
