@@ -13,6 +13,8 @@
 -   **Mental health advocates** and professionals who inspire compassionate digital spaces
 -   **Everyone** who contributes to making mental health resources more accessible and inclusivege/Bootstrap-5-purple?style=flat-square&logo=bootstrap)
 -   **Naude** for their AI Chat bot, providing supportive conversations and guidance for Health & Wellbeing
+
+  
     ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
 > _A gentle digital space designed to support mental health and emotional well-being_
@@ -48,14 +50,15 @@ At MindKind, we understand that life can be challenging, and caring for your men
 
 MindKind is designed with a user-centered approach to ensure accessibility, clarity, and emotional comfort. The UX process focused on:
 
--   **Empathetic user journeys** tailored for individuals seeking mental health support
--   **Simple, intuitive navigation** for all ages and abilities
--   **Calming visual hierarchy** with clear calls-to-action and minimal distractions
--   **Accessibility best practices** for color contrast, font size, and keyboard navigation
+-   **Empathetic user journeys** tailored for individuals seeking mental health tips & support
+-   **Simple, intuitive navigation** for all ages and abilities, allowing anyone with a Grade School education to understand.
+-   **Calming visual hierarchy** with clear calls-to-action and minimal distractions, utilising bootstrap buttons.
+-   **Accessibility best practices** for color contrast, font size, and keyboard navigation - Utilising root colors in the style sheet. Some images are blurred by design to emphasise the feeling.
+-   **Co-Pilot** for quickly implementing Bootstrap into the HTML Document and alleviating repetition, validating my code 
 
 ### Wireframes
 
-Explore the initial design concepts and user flows:
+Explore the initial design concepts and user flows, built uising Balsamiq:
 
 -   [Home Page Wireframe](https://github.com/MoustacheCode/MindKind/blob/main/assets/images/Wireframes/home-page.png?raw=true)
 -   [Tips Page Wireframe](https://github.com/MoustacheCode/MindKind/blob/main/assets/images/Wireframes/about.png?raw=true)
@@ -63,9 +66,24 @@ Explore the initial design concepts and user flows:
 
 ### Performance
 
+Running the code through Lighthouse showed high scoring on both Mobile and Desktop devices. The Bootstrap Grid templates utilised make the layout responsive across all screen sizes. 
+
 -   [Lighthouse Insight - Mobile](<img width="995" height="686" alt="lighthouse-mobile" src="https://github.com/user-attachments/assets/00f3153e-0046-4791-bacc-0016af1c6b4a" />
 -   [Lighthouse Insight - Desktop](<img width="976" height="706" alt="lighthouse-desktop" src="https://github.com/user-attachments/assets/9fdd5dc2-c77b-4f00-9adf-396d7ce0778d" />
 
+### Validation
+
+Validated using W3C for HTML & CSS displaying 1 warning for HTML (Style related) and No errors for CSS;
+
+<img width="377" height="114" alt="warning" src="https://github.com/user-attachments/assets/ff42f70a-adae-4e5b-8f85-0fc6db4ace26" />
+<img width="696" height="123" alt="css" src="https://github.com/user-attachments/assets/3894ae25-f29b-41b6-806e-bdc9f5e8b853" />
+
+
+### Readability
+
+Readability checked by WebFX, scoring 72 which should be age appropriate for the content.
+
+<img width="528" height="197" alt="readability" src="https://github.com/user-attachments/assets/45bf7db3-ab9f-443c-a308-0ce2e6006a96" />
 
 
 ## Features
@@ -79,31 +97,31 @@ Explore the initial design concepts and user flows:
 
 ### **Tips Page (Mental Health Guidance)**
 
--   **6 comprehensive guidance cards** covering common mental health challenges:
+-   **6 comprehensive guidance cards** using Bootstraps Grid, covering common mental health challenges:
     -   Persistent Low Mood or Sadness
     -   Anxiety or Racing Thoughts
     -   Sleep Disturbances
     -   Loss of Interest or Motivation
     -   Irritability or Emotional Overwhelm
     -   Social Withdrawal or Feeling Disconnected
--   **Practical, actionable advice** for each condition with specific coping strategies
--   **Responsive card design** with background imagery and clear typography
+-   **Practical, actionable advice** for each symptom with specific coping strategies and tips
+-   **Responsive card design** with background imagery to represent each particular card and clear typography
 
 ### **Resources Page (Professional Support)**
 
--   **9 curated UK mental health organizations** with detailed information:
+-   **9 curated UK mental health organizations** built using Bootstraps Grid system, with detailed information:
     -   Anxiety UK, YoungMinds, Samaritans
     -   Rethink Mental Illness, Compass UK, Mind
     -   The Health Foundation, Alzheimer's Society, Health For All
--   **Interactive expandable cards** with organization descriptions
--   **Direct links** to professional mental health services
--   **Toggle functionality** for detailed organization information
+-   **Interactive expandable cards** with organization descriptions and logo to clearly represent.
+-   **Direct links** to professional mental health services and support pages, that can offer further support and advise.
+-   **Toggle functionality** for detailed organization information, allowing for a sleeker look, that can be expanded at the user preference.
 
 ### **Contact Page**
 
--   **Accessible contact form** with proper validation
--   **Crisis support information** (Samaritans helpline: 116 123)
--   **Thank you page** with immediate crisis resources
+-   **Accessible contact form** with proper validation, that can be submit where you are greeted by a Thank You page to confirm the user message has been received.
+-   **Crisis support information** (Samaritans helpline: 116 123) - I implemented this to target anybody who may require more support than digital support.
+-   **Thank you page** with immediate crisis resources clearly outlined, and a button to return to home page.
 
 ### **Design & Accessibility**
 
