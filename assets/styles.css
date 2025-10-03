@@ -485,6 +485,70 @@ main {
     border: 3px solid var(--heading-color); /* Match hero image and quote container alignment */
 }
 
+.circle-paragraph {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    background: #e3f2fd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media (max-width: 576px) {
+    .circle-paragraph {
+        width: 90vw;
+        height: 90vw;
+        max-width: 340px;
+        max-height: 340px;
+        padding: 18px;
+        /* Enhanced centering for small screens */
+        margin: 20px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Ensure parent containers are centered on small screens */
+    .welcome-section {
+        margin: 20px auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Center the button container on small screens */
+    .btn-center {
+        width: 100%;
+        margin: 20px auto;
+        padding: 0 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Additional responsive adjustments for better alignment */
+@media (max-width: 768px) {
+    .circle-paragraph {
+        margin: 15px auto 20px auto;
+    }
+
+    .welcome-section {
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .btn-center {
+        text-align: center;
+    }
+}
+
 /* Footer Styles */
 
 footer {
